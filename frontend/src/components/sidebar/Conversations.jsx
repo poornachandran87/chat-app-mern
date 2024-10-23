@@ -12,7 +12,7 @@ const Conversations = () => {
           <Conversation
           key={conversation._id}
           conversation={conversation}
-          lastIdx={idx === conversation.length - 1}
+          lastIdx={idx === conversations.length - 1}
           />
          ))
       }
